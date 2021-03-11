@@ -1,19 +1,18 @@
-//
-//  ViewController.swift
-//  AlertaPersonalizada
-//
-//  Created by edeluz on 11/03/21.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func mostar(_ sender: Any) {
+        let story = UIStoryboard(name: "Alerta", bundle: Bundle(for: AlertaViewController.self))
+        let controller = story.instantiateViewController(withIdentifier: "AlertaViewController") as! AlertaViewController
+        controller.modalPresentationStyle = .overFullScreen // .overCurrentContext  // cualquiera de estas 2 propiedades
+        controller.modalTransitionStyle = .flipHorizontal  // la trancision
+        present(controller, animated: true, completion: nil)
+        
+    }
+    
 }
-

@@ -13,6 +13,8 @@
 		82CBBBC525FA927D000AD641 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82CBBBC325FA927D000AD641 /* Main.storyboard */; };
 		82CBBBC725FA927D000AD641 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82CBBBC625FA927D000AD641 /* Assets.xcassets */; };
 		82CBBBCA25FA927D000AD641 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82CBBBC825FA927D000AD641 /* LaunchScreen.storyboard */; };
+		82CBBBD325FA936A000AD641 /* Alerta.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82CBBBD225FA936A000AD641 /* Alerta.storyboard */; };
+		82CBBBD725FA94DE000AD641 /* AlertaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CBBBD625FA94DE000AD641 /* AlertaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		82CBBBC625FA927D000AD641 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82CBBBC925FA927D000AD641 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82CBBBCB25FA927D000AD641 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82CBBBD225FA936A000AD641 /* Alerta.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Alerta.storyboard; sourceTree = "<group>"; };
+		82CBBBD625FA94DE000AD641 /* AlertaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				82CBBBBF25FA927D000AD641 /* SceneDelegate.swift */,
 				82CBBBC125FA927D000AD641 /* ViewController.swift */,
 				82CBBBC325FA927D000AD641 /* Main.storyboard */,
+				82CBBBD625FA94DE000AD641 /* AlertaViewController.swift */,
+				82CBBBD225FA936A000AD641 /* Alerta.storyboard */,
 				82CBBBC625FA927D000AD641 /* Assets.xcassets */,
 				82CBBBC825FA927D000AD641 /* LaunchScreen.storyboard */,
 				82CBBBCB25FA927D000AD641 /* Info.plist */,
@@ -125,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				82CBBBCA25FA927D000AD641 /* LaunchScreen.storyboard in Resources */,
+				82CBBBD325FA936A000AD641 /* Alerta.storyboard in Resources */,
 				82CBBBC725FA927D000AD641 /* Assets.xcassets in Resources */,
 				82CBBBC525FA927D000AD641 /* Main.storyboard in Resources */,
 			);
@@ -138,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				82CBBBC225FA927D000AD641 /* ViewController.swift in Sources */,
+				82CBBBD725FA94DE000AD641 /* AlertaViewController.swift in Sources */,
 				82CBBBBE25FA927D000AD641 /* AppDelegate.swift in Sources */,
 				82CBBBC025FA927D000AD641 /* SceneDelegate.swift in Sources */,
 			);
